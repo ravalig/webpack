@@ -1,0 +1,105 @@
+a {
+	text-decoration: none !important;
+	color: #000000 !important;
+}
+
+td {
+   padding: 2px 10px 2px 0px !important;
+}
+
+body {
+	background-color: #F4F5F8 !important;
+}
+
+.intuit-blue-white {
+	background-color:#0077C5 !important;
+	color: #FFFFFF !important;
+}
+
+.intuit-white-blue,
+.sub-navbar div ul li a {
+	color: #0077C5 !important;
+}
+
+.breadcrumb {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.tiles div a h4 {
+	font-size: 14px;
+}
+.tiles {
+	max-width: 200px;
+	min-height: 100px;
+}
+
+.loader {
+    border: 5px solid #F4F5F8; /* Light grey */
+    border-top: 5px solid #0077C5; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+.organization-info,
+.snowconfig-header,
+.dockerconfig-header,
+.products-header {
+	display: flex;
+}
+
+.organization-info *,
+.snowconfig-header *,
+.dockerconfig-header *,
+.products-header *,
+.snowconfig-title *,
+.dockerconfig-title * {
+	padding: 10px 30px 10px 0px;
+}
+
+.gatorNavbar {
+	background-color:#0077C5 !important;
+	margin-bottom: 0 !important;
+}
+
+.gatorLogo {
+	width: 130px !important;
+	height: 50px !important;
+	padding:0px !important;
+}
+
+.gatorLogo a {
+	color: #FFFFFF !important;
+}
+
+.add-icon a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #0077C5;
+  /*background-image: url('../assets/add.svg');*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 28px;
+  font-size: 0;
+}
+
+.add-icon div {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.button {
+	margin-right: 20px;
+}
+
